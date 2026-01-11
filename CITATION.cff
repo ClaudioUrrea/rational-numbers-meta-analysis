@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this dataset or analysis code, please cite it as below."
+type: dataset
+title: "Technology-Enhanced Rational Number Learning in K-12 Education: A Meta-Analysis Dataset"
+authors:
+  - family-names: "Urrea"
+    given-names: "Claudio"
+    orcid: "https://orcid.org/0000-0001-7197-8928"
+version: 1.0.0
+date-released: 2026-01-10
+url: "https://github.com/ClaudioUrrea/rational-numbers-meta-analysis"
+repository-code: "https://github.com/ClaudioUrrea/rational-numbers-meta-analysis"
+keywords:
+  - meta-analysis
+  - rational numbers
+  - fractions
+  - technology-enhanced learning
+  - intelligent tutoring systems
+  - augmented reality
+  - K-12 education
+  - mathematics education
+license: CC-BY-4.0
+doi: 10.6084/m9.figshare.31015807
+abstract: >
+  This dataset supports a meta-analysis examining the effectiveness of 
+  technology-enhanced interventions for rational number learning in K-12 
+  education. It includes data from 12 high-quality experimental studies 
+  (N = 1,721 students) conducted across 7 countries between 2017-2025. 
+  The analysis revealed a medium-to-large positive effect (Hedge's g = 0.564, 
+  95% CI [0.468, 0.661]) with negligible heterogeneity (I² = 0%). The dataset 
+  includes: (1) primary data with effect sizes and study characteristics, 
+  (2) R analysis scripts using the metafor package, (3) coding forms and 
+  quality assessments, (4) publication-ready forest and funnel plots, and 
+  (5) complete database search strategies. All materials are provided under 
+  CC BY 4.0 license to facilitate replication and extension.
+preferred-citation:
+  type: article
+  title: "Technology-Enhanced Rational Number Learning in K-12 Education: A Meta-Analysis of Intelligent Tutoring Systems, Augmented Reality, and Pedagogical Frameworks"
+  authors:
+    - family-names: "Urrea"
+      given-names: "Claudio"
+      orcid: "https://orcid.org/0000-0001-7197-8928"
+  journal: "Educational Technology & Society"
+  year: 2026
+  status: "submitted"
+  doi: 10.6084/m9.figshare.31015807
+references:
+  - type: software
+    title: "metafor: Meta-Analysis Package for R"
+    authors:
+      - family-names: "Viechtbauer"
+        given-names: "Wolfgang"
+    version: "4.4.0"
+    year: 2010
+    doi: 10.18637/jss.v036.i03

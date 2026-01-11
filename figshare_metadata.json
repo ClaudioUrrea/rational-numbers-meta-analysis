@@ -1,0 +1,163 @@
+{
+  "title": "Technology-Enhanced Rational Number Learning in K-12 Education: A Meta-Analysis Dataset",
+  "description": "Complete replication materials for a systematic review and meta-analysis examining the effectiveness of technology-enhanced interventions for rational number learning in K-12 education. This dataset includes 12 high-quality experimental studies (N = 1,721 students) conducted across 7 countries between 2017-2025. The random-effects meta-analysis revealed a medium-to-large positive effect (Hedge's g = 0.564, 95% CI [0.468, 0.661]) with negligible heterogeneity (I² = 0%), suggesting consistent benefits across diverse technological platforms and educational contexts.\n\nThe repository includes:\n1. Primary dataset with study characteristics and effect sizes (Base_Datos_K12_FINAL.xlsx)\n2. Meta-analysis results with study weights (meta_analysis_results_k12.csv)\n3. Complete R analysis script using metafor package (metaanalysis_k12_UPDATED.R)\n4. Publication-quality forest and funnel plots (PNG format)\n5. Detailed data extraction coding forms and protocols\n6. Quality assessment ratings using EPHPP criteria\n7. Complete database search strategies for 6 databases\n8. Published manuscript (PDF and DOCX formats)\n\nAll materials are provided under CC BY 4.0 license to facilitate replication, verification, and extension of this research. The dataset enables full reproducibility of all reported analyses and provides a foundation for future meta-analytic updates in this domain.",
+  "defined_type": "dataset",
+  "categories": [
+    23070,
+    23003,
+    23117,
+    23037,
+    23113
+  ],
+  "tags": [
+    "meta-analysis",
+    "rational numbers",
+    "fractions",
+    "technology-enhanced learning",
+    "intelligent tutoring systems",
+    "augmented reality",
+    "K-12 education",
+    "mathematics education",
+    "educational technology",
+    "STEM education",
+    "effect size",
+    "Hedges g",
+    "random-effects model",
+    "metafor",
+    "R programming",
+    "systematic review",
+    "PRISMA",
+    "replication materials",
+    "open science"
+  ],
+  "keywords": [
+    "meta-analysis",
+    "rational numbers",
+    "fractions",
+    "decimals",
+    "proportions",
+    "technology-enhanced learning",
+    "intelligent tutoring systems",
+    "augmented reality",
+    "virtual reality",
+    "K-12 education",
+    "elementary education",
+    "middle school",
+    "mathematics education",
+    "educational technology",
+    "STEM learning",
+    "pedagogical design",
+    "adaptive learning",
+    "personalized instruction",
+    "effect size",
+    "Hedges g",
+    "random-effects model",
+    "heterogeneity",
+    "publication bias",
+    "quality assessment",
+    "EPHPP",
+    "metafor package",
+    "R statistical software",
+    "systematic review",
+    "PRISMA guidelines",
+    "replication study",
+    "open data",
+    "reproducible research"
+  ],
+  "references": [
+    "Oppmann, M.-M., Beege, M., & Reinhold, F. (2025). Stimulating individual learning of the concept of fraction equivalence: How students utilize adaptive features in digital learning environments mediates their effect. Learning and Instruction, 98, 102118. https://doi.org/10.1016/j.learninstruc.2025.102118",
+    "Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. Journal of Statistical Software, 36(3), 1-48. https://doi.org/10.18637/jss.v036.i03",
+    "Page, M. J., McKenzie, J. E., Bossuyt, P. M., et al. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. Revista Española de Cardiología, 74(9), 790-799. https://doi.org/10.1016/j.rec.2021.07.001"
+  ],
+  "authors": [
+    {
+      "name": "Claudio Urrea",
+      "orcid_id": "0000-0001-7197-8928"
+    }
+  ],
+  "license": 1,
+  "funding": "This research received no external funding.",
+  "custom_fields": {
+    "Data Collection Period": "December 2025 - January 2026",
+    "Number of Studies": "12",
+    "Total Sample Size": "1,721 students",
+    "Countries Represented": "Germany, Finland, Spain, China, United Kingdom, Taiwan, United States",
+    "Effect Size Metric": "Hedge's g (bias-corrected standardized mean difference)",
+    "Overall Effect Size": "g = 0.564, 95% CI [0.468, 0.661]",
+    "Heterogeneity": "I² = 0% (negligible)",
+    "Statistical Software": "R version 4.3.2, metafor package 4.4.0",
+    "Quality Assessment Tool": "EPHPP (Effective Public Health Practice Project)",
+    "Search Databases": "Web of Science, Scopus, ERIC, IEEE Xplore, EBSCO Education Source, PsycINFO",
+    "PRISMA Compliance": "Yes - PRISMA 2020 guidelines followed",
+    "Pre-registration": "Not pre-registered; prospective protocol developed",
+    "Conflicts of Interest": "None declared"
+  },
+  "version": 1,
+  "language": "en",
+  "institution": "",
+  "resource_doi": "10.6084/m9.figshare.31015807",
+  "embargo_date": null,
+  "embargo_type": "",
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "files": [
+    {
+      "name": "Base_Datos_K12_FINAL.xlsx",
+      "description": "Primary dataset containing study characteristics, effect sizes, and moderator variables for all 12 included studies"
+    },
+    {
+      "name": "meta_analysis_results_k12.csv",
+      "description": "Meta-analysis results including effect sizes, confidence intervals, and study weights"
+    },
+    {
+      "name": "metaanalysis_k12_UPDATED.R",
+      "description": "Complete R analysis script implementing all meta-analytic procedures using the metafor package"
+    },
+    {
+      "name": "forest_plot_k12.png",
+      "description": "Publication-quality forest plot showing individual study effect sizes and pooled estimate"
+    },
+    {
+      "name": "funnel_plot_k12.png",
+      "description": "Funnel plot for publication bias assessment"
+    },
+    {
+      "name": "ETS_Paper_10_01_2026.pdf",
+      "description": "Published manuscript (PDF format)"
+    },
+    {
+      "name": "ETS_Paper_10_01_2026.docx",
+      "description": "Published manuscript (Word format)"
+    },
+    {
+      "name": "README.md",
+      "description": "Comprehensive repository documentation with quick start guide"
+    },
+    {
+      "name": "Data_Dictionary.md",
+      "description": "Complete variable descriptions and data structure documentation"
+    },
+    {
+      "name": "Coding_Forms.md",
+      "description": "Data extraction protocols and coding guidelines"
+    },
+    {
+      "name": "Quality_Assessment.md",
+      "description": "EPHPP quality assessment criteria and individual study ratings"
+    },
+    {
+      "name": "Search_Strategies.md",
+      "description": "Complete search strategies for all 6 databases with Boolean strings"
+    },
+    {
+      "name": "LICENSE",
+      "description": "CC BY 4.0 license terms"
+    },
+    {
+      "name": "CITATION.cff",
+      "description": "Citation File Format for standardized attribution"
+    }
+  ],
+  "citation": "Urrea, C. (2026). Technology-Enhanced Rational Number Learning in K-12 Education: A Meta-Analysis Dataset [Data set]. Figshare. https://doi.org/10.6084/m9.figshare.31015807"
+}

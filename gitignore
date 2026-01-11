@@ -1,0 +1,166 @@
+# .gitignore for Meta-Analysis Repository
+# Technology-Enhanced Rational Number Learning
+
+# ============================================================================
+# R and RStudio
+# ============================================================================
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# R temporary files
+*~
+.DS_Store
+Thumbs.db
+
+# R package specific
+.Rbuildignore
+
+# ============================================================================
+# Data Files (Optional - comment out if you want to track data)
+# ============================================================================
+# Uncomment these if data files are too large for GitHub
+# *.xlsx
+# *.csv
+
+# ============================================================================
+# Output Files (Optional)
+# ============================================================================
+# Uncomment if you don't want to track generated outputs
+# *.png
+# *.pdf
+# *.html
+
+# ============================================================================
+# LaTeX (if using for manuscript)
+# ============================================================================
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# ============================================================================
+# Microsoft Office
+# ============================================================================
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.tmp
+
+# Office temp files
+.~lock.*
+
+# ============================================================================
+# System Files
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================================================
+# IDE and Editor
+# ============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+\#*\#
+.\#*
+
+# ============================================================================
+# Python (if used for supplementary analysis)
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+.pytest_cache/
+
+# ============================================================================
+# Backup Files
+# ============================================================================
+*.bak
+*.backup
+*_backup*
+*_old*
+
+# ============================================================================
+# Logs and Temporary Files
+# ============================================================================
+*.log
+logs/
+temp/
+tmp/
+
+# ============================================================================
+# Archives
+# ============================================================================
+# Uncomment if you don't want to track compressed files
+# *.zip
+# *.tar.gz
+# *.rar
+
+# ============================================================================
+# Private/Sensitive Information
+# ============================================================================
+# Personal notes not for public
+private/
+notes/
+drafts/
+
+# Credentials
+.env
+.env.local
+credentials.*
+secrets.*
+
+# ============================================================================
+# Specific to This Project
+# ============================================================================
+# Reviewer comments (until addressed)
+reviewer_comments/
+response_to_reviewers.docx
+
+# Submission versions (keep only final)
+submission_v1/
+submission_v2/
+
+# Personal TODO lists
+TODO.md
+NOTES.md
+
+# ============================================================================
+# END
+# ============================================================================
