@@ -24,22 +24,22 @@ This repository contains the complete dataset, analysis code, and supplementary 
 ├── README.md                          # This file
 ├── LICENSE                            # CC BY 4.0 license
 ├── CITATION.cff                       # Citation information
-├── Data/
+├── data/
 │   ├── Base_Datos_K12_FINAL.xlsx     # Primary dataset (12 studies)
 │   ├── meta_analysis_results_k12.csv  # Analysis results with weights
 │   └── Data_Dictionary.md             # Variable descriptions
-├── Analysis/
+├── analysis/
 │   ├── metaanalysis_k12_UPDATED.R    # Complete R analysis script
 │   └── Session_Info.txt               # R session information
-├── Figures/
+├── figures/
 │   ├── forest_plot_k12.png           # Forest plot (publication quality)
 │   └── funnel_plot_k12.png           # Funnel plot for bias assessment
-├── Documentation/
+├── documentation/
 │   ├── Coding_Forms.md                # Variable extraction protocol
 │   ├── Quality_Assessment.md          # EPHPP quality ratings
 │   ├── Search_Strategies.md           # Database search strategies
 │   └── Included_Studies.md            # Details of 12 included studies
-└── Manuscript/
+└── manuscript/
     ├── ETS_Paper_10_01_2026.pdf      # Published paper
     └── ETS_Paper_10_01_2026.docx     # Word version
 ```
